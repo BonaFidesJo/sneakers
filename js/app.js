@@ -11668,7 +11668,7 @@
         }, react.createElement("div", {
             className: "header__logo"
         }, react.createElement("img", {
-            src: "img/header/logo.png"
+            src: "./../img/header/logo.png"
         }), react.createElement("div", {
             className: "header__info"
         }, react.createElement("h3", {
