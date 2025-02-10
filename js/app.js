@@ -11681,7 +11681,7 @@
             className: "header__item",
             onClick: props.onClickCart
         }, react.createElement("img", {
-            src: "img/header/card.svg"
+            src: "./../img/header/card.svg"
         }), react.createElement("span", null, totalPrice, " руб.")), react.createElement(Link, {
             to: "favourites"
         }, react.createElement("li", {
@@ -11689,13 +11689,13 @@
         }, react.createElement("span", {
             className: "header__link"
         }, "Закладки"), react.createElement("img", {
-            src: "img/header/like.svg"
+            src: "./../img/header/like.svg"
         }))), react.createElement(Link, {
             to: "orders"
         }, react.createElement("li", {
             className: "header__item"
         }, react.createElement("span", null, "Профиль"), react.createElement("img", {
-            src: "img/header/person.svg"
+            src: "./../img/header/person.svg"
         })))))));
     };
     const components_Header = Header;
@@ -11716,7 +11716,7 @@
             onClick: () => setCartOpened(false),
             className: "empty-drawer__button"
         }, react.createElement("img", {
-            src: "img/arrow-02.png",
+            src: "./../img/arrow-02.png",
             alt: "Image"
         }), react.createElement("span", null, "Вернуться назад")));
     };
@@ -11755,7 +11755,7 @@
         }, react.createElement("h2", null, "Корзина"), react.createElement("img", {
             onClick: onClickClose,
             className: "drawer__button",
-            src: "/img/btn.svg",
+            src: "/./../img/btn.svg",
             alt: "button"
         })), items.length > 0 ? react.createElement(react.Fragment, null, react.createElement("div", {
             className: "drawer__body"
@@ -11777,7 +11777,7 @@
         }, obj.price, " руб.")), react.createElement("img", {
             onClick: () => onRemove(obj.id),
             className: "drawer__button",
-            src: "/img/btn.svg",
+            src: "/./../img/btn.svg",
             alt: "button"
         }))))), react.createElement("ul", {
             className: "drawer__count count-drawer"
@@ -11806,12 +11806,12 @@
         }, react.createElement("span", null, "Оформить заказ")), react.createElement("a", {
             className: "button-green__arrow"
         }, react.createElement("img", {
-            src: "img/arrow.svg",
+            src: "./../img/arrow.svg",
             alt: "Image"
         })))) : react.createElement(components_Info, {
             title: isOrderComplete ? "Заказ оформлен!" : "Корзина пустая",
             description: isOrderComplete ? `Ваш заказ #${orderId} скоро будет передан курьерской доставке` : "Добавьте хотя бы одну пару кроссовок, чтобы сделать заказ.",
-            image: isOrderComplete ? "img/order.svg" : "img/empty.png"
+            image: isOrderComplete ? "./../img/order.svg" : "./../img/empty.png"
         })));
     };
     const components_Drawer = Drawer;
@@ -12017,7 +12017,7 @@ and limitations under the License.
             className: "card__like"
         }, " ", react.createElement("img", {
             onClick: onClickFavourite,
-            src: isFavourite ? "img/card/heart-02.svg" : "img/card/heart-01.svg",
+            src: isFavourite ? "./../img/card/heart-02.svg" : "./../img/card/heart-01.svg",
             alt: "unlike"
         })), react.createElement("img", {
             className: "card__image",
@@ -12037,7 +12037,7 @@ and limitations under the License.
             className: "card__pluse",
             onClick: onClickPlus
         }, react.createElement("img", {
-            src: isAdded ? "img/card/pluse-02.svg" : "img/card/pluse-01.svg",
+            src: isAdded ? "./.././../img/card/pluse-02.svg" : "./../img/card/pluse-01.svg",
             alt: "",
             className: "card__pluse-img"
         })))));
@@ -12140,7 +12140,7 @@ and limitations under the License.
         }, react.createElement("div", {
             className: "search-block__img"
         }, react.createElement("img", {
-            src: "img/card/search.svg",
+            src: "./../img/card/search.svg",
             alt: "search"
         })), react.createElement("input", {
             value: searchValue || " ",
@@ -12151,7 +12151,7 @@ and limitations under the License.
         }), searchValue && react.createElement("img", {
             onClick: () => setSearchValue(""),
             className: "search-block__button",
-            src: "/img/btn.svg",
+            src: "/./../img/btn.svg",
             alt: "button"
         }))), react.createElement("div", {
             className: "content__cards"
